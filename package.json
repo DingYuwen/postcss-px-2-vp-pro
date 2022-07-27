@@ -1,0 +1,30 @@
+{
+  "name": "postcss-px-2-vp-pro",
+  "version": "0.0.2",
+  "description": "优化postcss-px-to-viewport，vite项目中支持postcss8，viewportWidth配置项支持函数，根据条件返回设计稿尺寸",
+  "main": "index.js",
+  "keywords": ["postcss-px-to-viewport", "vite", "viewportWidth", "vant"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DingYuwen/postcss-px-2-vp-pro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DingYuwen/postcss-px-2-vp-pro/issues"
+  },
+  "homepage": "https://github.com/DingYuwen/postcss-px-2-vp-pro#readme",
+  "dependencies": {
+    "object-assign": ">=4.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "postcss": "^8.4.14"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.14"
+  }
+}

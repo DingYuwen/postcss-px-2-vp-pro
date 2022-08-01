@@ -22,7 +22,7 @@ module.exports = () => {
         // viewportWidth: 750, // UI设计稿的宽度
         viewportWidth: (file) => {
           const reg = /[\\/]node_modules[\\/]vant/g;
-          return reg.test(file) >=0 ? 375 : 750
+          return reg.test(file) ? 375 : 750
         },
         unitPrecision: 3, // 转换后的精度，即小数点位数
         propList: ["*"], // 指定转换的css属性的单位，*代表全部css属性的单位都进行转换
